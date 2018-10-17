@@ -1,0 +1,69 @@
+
+
+Here is a table of the two main types we will spend most of our time working with some examples:
+
+Examples	    Number "Type"
+1,2,-5,1000	        Integers
+1.2,-0.5,2e2,3E2	Floating-point numbers
+now lets start coding.......
+# Addition
+2+1
+Out[1]:
+3
+In [2]:
+# Subtraction
+2-1
+Out[2]:
+1
+In [3]:
+# Multiplication
+2*2
+Out[3]:
+4
+In [4]:
+# Division
+3/2
+Out[4]:
+1.5
+In [5]:
+# Floor Division
+7//4
+Out[5]:
+1
+Whoa! What just happened? Last time I checked, 7 divided by 4 equals 1.75 not 1!
+
+The reason we get this result is because we are using "floor" division. The // operator (two forward slashes) truncates the decimal without rounding, and returns an integer result.
+
+So what if we just want the remainder after division?
+
+In [6]:
+# Modulo
+7%4
+Out[6]:
+3
+4 goes into 7 once, with a remainder of 3. The % operator returns the remainder after division.
+
+Arithmetic continued
+In [7]:
+# Powers
+2**3
+Out[7]:
+8
+In [8]:
+# Can also do roots this way
+4**0.5
+Out[8]:
+2.0
+In [9]:
+# Order of Operations followed in Python
+2 + 10 * 10 + 3
+Out[9]:
+105
+In [10]:
+# Can use parentheses to specify orders
+(2+10) * (10+3)
+Out[10]:
+156
+
+
+
